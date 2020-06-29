@@ -1,5 +1,6 @@
 package co.photon.example
 
+
 import android.app.Application
 import androidx.work.*
 import co.photon.example.ui.RefreshMainDataWork
@@ -18,7 +19,7 @@ class CoroutinesBasicsApp : Application() {
      */
     override fun onCreate() {
         super.onCreate()
-        setupWorkManagerJob()
+    //    setupWorkManagerJob()
     }
 
     /**

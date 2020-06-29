@@ -67,7 +67,7 @@ object DebugLog {
             if (fileName == null) {
                 fileName = "" // It is necessary if you want to use proguard obfuscation.
             }
-            val info = stackTrace.methodName + " (" + fileName + ":" + stackTrace.lineNumber + ")"
+           // val info = stackTrace.methodName + " (" + fileName + ":" + stackTrace.lineNumber + ")"
             sb.append(stackTrace.methodName).append("(").append(fileName).append(":").append(stackTrace.lineNumber).append(")")
                     .append(" *** ").append(message.toString())
             Log.d("_$tag", sb.toString())

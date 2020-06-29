@@ -66,7 +66,7 @@ fun getDatabase(context: Context): TitleDatabase {
                     .databaseBuilder(
                             context.applicationContext,
                             TitleDatabase::class.java,
-                            "titles_db"
+                            "titlesd_db"
                     )
                     .fallbackToDestructiveMigration()
                     .build()

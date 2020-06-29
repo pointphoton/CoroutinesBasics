@@ -15,7 +15,6 @@
  */
 
 package co.photon.example.ui
-
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.map
 import co.photon.example.util.BACKGROUND
